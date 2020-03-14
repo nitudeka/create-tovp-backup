@@ -1,0 +1,16 @@
+{
+  "name": "tovp-backup",
+  "version": "1.0.0",
+  "description": "automate tovp backup",
+  "main": "index.js",
+  "repository": "git@github.com:nitudeka/create-tovp-backup.git",
+  "author": "nitudeka <nitumonideka327@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "file-base64": "^1.0.0",
+    "restler": "^3.4.0",
+    "shelljs": "^0.8.3"
+  }
+}
