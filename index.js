@@ -18,7 +18,7 @@ const main = () => {
 
   base64.encode(fileName, function(err, base64String) {
     const mail = {
-      to: process.env.TO_MAIL,
+      to: [process.env.TO_MAIL, "tecmeadows.backup@gmail.com"],
       subject: "Tovp database backup",
       html: `<p>Database backup of ${new Date()}</p>`,
       attachment: { [fileName]: base64String }
